@@ -1,10 +1,5 @@
 <?php
-session_start();
-if (!isset($_SESSION['message'])) {
-    echo "Pas connecté";
-} else {
-    $messageErreur = $_SESSION['message'];
-}
+require_once ("../config/session.php");
 ?>
 
 

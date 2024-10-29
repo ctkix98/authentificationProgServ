@@ -1,13 +1,5 @@
 <?php
-session_start();
-if (!isset($_SESSION['utilisateur'])) {
-    //echo "Pas connecté";
-} else {
-    $prenom = $_SESSION['utilisateur']['prenom'];
-    $nom = $_SESSION['utilisateur']['nom'];
-    $email = $_SESSION['utilisateur']['email'];
-    $tel = $_SESSION['utilisateur']['noTel'];
-}
+require_once("../config/session.php")
 
 ?>
 

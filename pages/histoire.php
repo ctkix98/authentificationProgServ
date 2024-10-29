@@ -1,5 +1,6 @@
 <?php
-session_start();
+require_once("../config/session.php");
+
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +21,7 @@ session_start();
             <li><a href="../index.php">Verdo Sàrl</a></li>
             <li><a href="histoire.php">Notre histoire</a></li>
             <li><a href="compte.php">Mon compte</a></li>
-            <?php if (isset($_SESSION['utilisateur'])): ?>
+            <?php if ($isConnected): ?>
                 <li id="deconnexion"><a href="deconnexion.php">Se déconnecter</a></li>
             <?php else: ?>
                 <li id="nouveauCompte"><a href="nouveauCompte.php">Créer un nouveau compte</a></li>

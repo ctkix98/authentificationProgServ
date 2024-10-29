@@ -258,5 +258,13 @@ button:hover {
     border-bottom: none;
 }
 
+#histoire p{
+    margin: 50px;
+}
   
-
+#information {
+    display: flex;
+    flex-direction: column; /* Aligne les éléments verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+    text-align: center; /* Centre le texte dans les paragraphes et titres */
+}

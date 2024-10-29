@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,22 @@
     <link rel="stylesheet" href="../stylesheet.css">
 
 </head>
+
 <body>
-<header>
+    <header>
         <ul>
             <li><a href="../index.php">Verdo Sàrl</a></li>
-            <li id="connexion"><a href="pages/connexion.php">Se connecter</a></li>
+            <li><a href="histoire.php">Notre histoire</a></li>
+            <li><a href="compte.php">Mon compte</a></li>
+            <li id="connexion"><a href="connexion.php">Se connecter</a></li>
         </ul>
     </header>
-    <main class ="pages">
+    <main class="pages">
         <div>
             <h1>Félicitation ton compte est créé ! </h1>
         </div>
 
-        <div class ="confirmation">
+        <div class="confirmation">
             <p>Essaie maintenant de te connecter </p>
             <a href="connexion.php" id="idConnexion">Se connecter</a>
         </div>
@@ -28,6 +32,7 @@
     <footer>
         <p>made with &nbsp; &#9829;&nbsp; by Cédrine Tille </p>
     </footer>
-    
+
 </body>
+
 </html>

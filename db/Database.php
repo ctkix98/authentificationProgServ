@@ -117,5 +117,4 @@ public function verifierAccesEtRecupererUtilisateur(string $email): ?array {
     return $utilisateur ? $utilisateur : null; // Si l'utilisateur existe, retourne ses données, sinon null
 }
 
-
 }

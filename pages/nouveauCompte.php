@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nouveau compte</title>
     <link rel="stylesheet" href="../stylesheet.css">
-    <script src="../verifications/verification.js"></script> 
+    <script src="../verifications/verification.js"></script>
 </head>
+
 <body>
-<header>
+    <header>
         <ul>
             <li><a href="../index.php">Verdo Sàrl</a></li>
+            <li><a href="histoire.php">Notre histoire</a></li>
+            <li><a href="compte.php">Mon compte</a></li>
             <li id="connexion"><a href="connexion.php">Se connecter</a></li>
         </ul>
     </header>
     <main>
-    <nav class="accueil">
-        <a href="../index.php">&#x27F5;&nbsp;</a>
-    </nav>
+        <nav class="accueil">
+            <a href="../index.php">&#x27F5;&nbsp;</a>
+        </nav>
 
-    <h1>Créer un nouveau compte</h1>
-        <form action="../verifications/verification-nouveauCompte.php" method ="post">
+        <h1>Créer un nouveau compte</h1>
+        <form action="../verifications/verification-nouveauCompte.php" method="post">
             <div>
                 <label for="nom">Nom</label>
                 <input type="text" id="nom" name="nom" placeholder="Doe" required>
@@ -35,14 +39,14 @@
             </div>
             <div>
                 <label for="tel">Numéro de téléphone</label>
-                <input type="tel" id="tel" name="tel" placeholder="079 123 45 67" required type ="tel">
+                <input type="tel" id="tel" name="tel" placeholder="079 123 45 67" required type="tel">
             </div>
             <div>
                 <label for="mdp">Mot de passe</label>
                 <input type="password" id="mdp" name="mdp" placeholder="123Password$" required oninput="checkPassword()">
             </div>
             <div class="showMDP">
-                <input type="checkbox" id="showPassword" onclick="montrerMdp()"> 
+                <input type="checkbox" id="showPassword" onclick="montrerMdp()">
                 <label for="showPassword">Afficher le mot de passe</label>
             </div>
             <div id="min_required">
@@ -59,9 +63,10 @@
             </div>
         </form>
 
-</main>
-<footer>
+    </main>
+    <footer>
         <p>made with &nbsp; &#9829;&nbsp; by Cédrine Tille </p>
     </footer>
 </body>
+
 </html>

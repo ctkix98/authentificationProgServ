@@ -14,7 +14,7 @@
         <ul>
             <li><a href="../index.php">Verdo Sàrl</a></li>
             <li><a href="histoire.php">Notre histoire</a></li>
-            <li><a href="compte.php">Mon compte</a></li>
+            <li><a href="monCompte.php">Mon compte</a></li>
             <li id="connexion"><a href="connexion.php">Se connecter</a></li>
         </ul>
     </header>

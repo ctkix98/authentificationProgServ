@@ -1,7 +1,5 @@
 <?php
-require_once("../config/session.php");
-
-
+require_once("../config/protection.php");
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +17,7 @@ require_once("../config/session.php");
         <ul>
             <li><a href="../index.php">Verdo Sàrl</a></li>
             <?php if ($isConnected): ?>
-                <li><a href="compte.php">Mon compte</a></li>
+                <li><a href="monCompte.php">Mon compte</a></li>
                 <li><a href="histoire.php">Notre histoire</a></li>
                 <li id="deconnexion"><a href="deconnexion.php">Se déconnecter</a></li>
             <?php else: ?>

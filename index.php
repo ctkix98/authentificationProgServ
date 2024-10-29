@@ -16,7 +16,7 @@ session_start();
         <ul>
             <li><a href="index.php">Verdo Sàrl</a></li>
             <li><a href="pages/histoire.php">Notre histoire</a></li>
-            <li><a href="pages/compte.php">Mon compte</a></li>
+            <li><a href="pages/monCompte.php">Mon compte</a></li>
             <?php if (isset($_SESSION['utilisateur'])): ?>
                 <li id="deconnexion"><a href="pages/deconnexion.php">Se déconnecter</a></li>
             <?php else: ?>
